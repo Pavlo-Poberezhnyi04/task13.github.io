@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+}
+
+.square {
+    fill: lightblue;
+    stroke: blue;
+    stroke-width: 5px;
+}
+
+.rectangle {
+    fill: lightgreen;
+    stroke: green;
+    stroke-width: 5px;
+}
+
+.circle {
+    fill: lightcoral;
+    stroke: red;
+    stroke-width: 5px;
+}
+
+.ellipse {
+    fill: lightgoldenrodyellow;
+    stroke: goldenrod;
+    stroke-width: 5px;
+}
+
+.animate {
+    animation: changeColors 2s infinite alternate;
+}
+
+@keyframes changeColors {
+    0% {
+        fill: lightcoral;
+        stroke: red;
+    }
+    100% {
+        fill: coral;
+        stroke: darkred;
+    }
+}
